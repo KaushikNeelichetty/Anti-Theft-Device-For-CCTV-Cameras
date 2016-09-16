@@ -25,7 +25,7 @@ Explanation for the circuit diagram is given in this <a href="https://drive.goog
 <li> modfify the domain name in the notifyPortal function of the alert.py script to your new domain to which you just uploaded the code, and also in the mail content of the sendMail function </li>
 <li> Provide power to the Aurdino , and Raspberry Pi and use it as shown in my <a href="https://www.youtube.com/watch?v=Ux5e9g4pWpc">YouTube Video</a>. </li>
 
-## GET REQUESTS FOR ALRTING PORTAL
+## GET REQUESTS FOR ALERTING PORTAL
 
 http://domain.com/esptalk.php?safe=0&&camera=1 // writes unsafe into camera1.txt<br>
 http://domain.com/esptalk.php?safe=1&&camera=1 // writes safe into camera1.txt<br>
