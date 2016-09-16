@@ -7,7 +7,7 @@ Internet of Things is all about connecting anything, anytime and anywhere. With 
 Explanation for the circuit diagram is given in this <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/Circuit%20Diagram%20With%20Description.docx">document</a>.
 ##Procedure
 <ol>
-<li>Make the connections as described in the cicuit diagram, the explanation for the same is provided in this <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/Circuit%20Diagram%20With%20Description.docx">document</a>.</li>
+<li>Make the connections as described in the cicuit diagram, the explanation for the same is provided in this <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/Circuit%20Diagram%20With%20Description.pdf">document</a></li>
 <li>Download <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/IrWireCutGsmSMSCall.ino">IRWireCutSMSCall.ino</a> in this file, modfiy the "x" s with your cell phone number in the SMS function [Line 25] and with eighter your landline or cell phone number in the call fucntion [line 35] </li>
 <li> Upload the ino file into your Arduino Board [Refer the <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/Uploading%20Code%20To%20Arduino.pdf"Upload Code Into Arduino.pdf</a> file for the same]</li>
 <li> Download <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/alert.py">alert.py</a> and in this script modilfy smtpUser smtpPasss to the user id and password of the GMail account from which you are sending the mail, make sure to disable secure login for that GMail account, else your login will fail.</li>
