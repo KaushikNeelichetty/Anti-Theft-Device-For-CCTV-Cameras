@@ -10,7 +10,7 @@
   <br>In order to send the alerts, we are using a GSM module that is connected to the Arduino to send SMS and make calls.The Raspberry Pi connects to the Internet and sends email and posts status of the CCTV camera to the online portal. Multiple Arduinos can be connected to a single Pi to allow scalability for real world usage. All the cameras in a single floor can have a common Raspberry Pi module through which they connect to the Internet.
 </p>
 ##Circuit Diagram
-<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/CircuitDiagram.jpg">
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/CircuitDiagram.jpg">
 <br>
 Explanation for the circuit diagram is given in this <a href="https://drive.google.com/file/d/0B4ojjO5sVzx8VWUxaFlVX1dQR3M/view?usp=sharing">document</a>.
 ##Procedure
