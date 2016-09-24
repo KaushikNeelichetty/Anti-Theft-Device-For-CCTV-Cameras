@@ -37,8 +37,62 @@ Explanation for the circuit diagram is given in this <a href="https://drive.goog
 <li> Host a website using any hosting service, I used hostinger, and Upload the <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/esptalk.php">esptalk.php</a> and the <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/iscamerasafe.php">iscamerasafe.php</a> files into it </li>
 <li> modfify the domain name in the notifyPortal function of the alert.py script to your new domain to which you just uploaded the code, and also in the mail content of the sendMail function </li>
 <li> Provide power to the Aurdino , and Raspberry Pi and use it as shown in my <a href="https://www.youtube.com/watch?v=Ux5e9g4pWpc">YouTube Video</a>. </li>
-
-## GET REQUESTS FOR ALERTING PORTAL
+##Snapshots
+<b> Write cut </b>
+<br>
+Before
+<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Wire%20Cut/Before.png"/>
+<br>
+During
+<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Wire%20Cut/During.png"/>
+<br>
+After<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Wire%20Cut/After.png"/>
+<br>
+SMS Alert<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Wire%20Cut/After%20SMS.png"/>
+<br>
+Phone Call Alert<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Wire%20Cut/After%20Call.png"/>
+<br>
+<b> IR Pair </b>
+<br>
+Before<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/IR/Before.png"/>
+<br>
+During<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/IR/During.png"/>
+<br>
+After<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/IR/After.png"/>
+<br>
+SMS Alert<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/IR/After%20SMS.png"/>
+<br>
+Phone Call Alert<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/IR/After%20Call.png"/>
+<br>
+<b>The EMmail and portal</b>
+<br>
+Before EMail
+<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Before%20Email.png">
+<br>
+The EMail<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/The%20Email.png" height="270" width="287">
+<br>
+Checking Status After EMail<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Checking%20Status%20after%20Email.png">
+<br>
+Resetting via EMail Link<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Resetting%20via%20Email%20Link.png">
+<br>
+After Resetting via EMail<br>
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/After%20Resetting%20via%20Email.png">
+<br>
+##HTTP GET REQUESTS FOR ALERTING PORTAL
 
 http://domain.com/esptalk.php?safe=0&&camera=1 // writes unsafe into camera1.txt<br>
 http://domain.com/esptalk.php?safe=1&&camera=1 // writes safe into camera1.txt<br>
