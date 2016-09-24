@@ -81,7 +81,7 @@ Before EMail
 <img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Before%20Email.png">
 <br>
 The EMail<br>
-<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/The%20Email.png" height="270" width="287">
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/The%20Email.png" height="470" width="287">
 <br>
 Checking Status After EMail<br>
 <img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Checking%20Status%20after%20Email.png">
