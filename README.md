@@ -78,19 +78,19 @@ Phone Call Alert<br>
 <br>
 Before EMail
 <br>
-<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Before%20Email.png">
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Before%20Email.png" height="270" width="480">
 <br>
 The EMail<br>
 <img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/The%20Email.png" height="480" width="270">
 <br>
 Checking Status After EMail<br>
-<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Checking%20Status%20after%20Email.png">
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Checking%20Status%20after%20Email.png" height="270" width="480">
 <br>
 Resetting via EMail Link<br>
-<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Resetting%20via%20Email%20Link.png">
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/Resetting%20via%20Email%20Link.png" height="270" width="480">
 <br>
 After Resetting via EMail<br>
-<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/After%20Resetting%20via%20Email.png">
+<img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/After%20Resetting%20via%20Email.png" height="270" width="480">
 <br>
 ##HTTP GET REQUESTS FOR ALERTING PORTAL
 
