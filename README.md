@@ -9,7 +9,8 @@
   </ol>
   <br>In order to send the alerts, we are using a GSM module that is connected to the Arduino to send SMS and make calls.The Raspberry Pi connects to the Internet and sends email and posts status of the CCTV camera to the online portal. Multiple Arduinos can be connected to a single Pi to allow scalability for real world usage. All the cameras in a single floor can have a common Raspberry Pi module through which they connect to the Internet.
 </p>
-##Components
+
+## Components
 <ol>
   <li>Arduino Uno , can buy <a href="http://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=arduino+uno">here</a>, there are a lot of counterfeits out there , learn more <a href="https://www.arduino.cc/en/Products/Counterfeit">here.</a></li>
   <li>Raspberry Pi, can buy <a href="http://www.amazon.in/Raspberry-Pi-RASPBERRY-model-Computer/dp/B01CCOXV34/ref=sr_1_1?ie=UTF8&qid=1474736047&sr=8-1&keywords=raspberry+pi">here.</a></li>
@@ -26,7 +27,8 @@
 <img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/CircuitDiagram.jpg">
 <br>
 Explanation for the circuit diagram is given in this <a href="https://drive.google.com/file/d/0B4ojjO5sVzx8VWUxaFlVX1dQR3M/view?usp=sharing">document</a>.
-##Procedure
+
+## Procedure
 <ol>
 <li>Make the connections as described in the cicuit diagram, the explanation for the same is provided in this <a href="https://drive.google.com/file/d/0B4ojjO5sVzx8VWUxaFlVX1dQR3M/view?usp=sharing">document</a>.</li>
 <li>Download <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/IrWireCutGsmSMSCall.ino">IRWireCutSMSCall.ino</a> in this file, modfiy the "x" s with your cell phone number in the SMS function [Line 25] and with eighter your landline or cell phone number in the call fucntion [line 35] </li>
@@ -37,7 +39,8 @@ Explanation for the circuit diagram is given in this <a href="https://drive.goog
 <li> Host a website using any hosting service, I used hostinger, and Upload the <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/esptalk.php">esptalk.php</a> and the <a href="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/blob/master/iscamerasafe.php">iscamerasafe.php</a> files into it </li>
 <li> modfify the domain name in the notifyPortal function of the alert.py script to your new domain to which you just uploaded the code, and also in the mail content of the sendMail function </li>
 <li> Provide power to the Aurdino , and Raspberry Pi and use it as shown in my <a href="https://www.youtube.com/watch?v=Ux5e9g4pWpc">YouTube Video</a>. </li>
-##Snapshots
+
+## Snapshots
 <b> Write cut </b>
 <br>
 Before
@@ -92,7 +95,8 @@ Resetting via EMail Link<br>
 After Resetting via EMail<br>
 <img src="https://github.com/KaushikNeelichetty/Anti-Theft-Device-For-CCTV-Cameras/raw/master/Pics/Email%20and%20Portal/After%20Resetting%20via%20Email.png" height="270" width="480">
 <br>
-##HTTP GET REQUESTS FOR ALERTING PORTAL
+
+## HTTP GET REQUESTS FOR ALERTING PORTAL
 
 http://domain.com/esptalk.php?safe=0&&camera=1 // writes unsafe into camera1.txt<br>
 http://domain.com/esptalk.php?safe=1&&camera=1 // writes safe into camera1.txt<br>
